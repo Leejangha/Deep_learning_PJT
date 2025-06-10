@@ -59,6 +59,7 @@ python3 ./PRPD_Classification/main_mobilenet.py   —raw_data_path ./원천데�
     <img src="https://img.shields.io/badge/pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
     <img src="https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white">
 </div>
+
 > ## :link: API
 
 https://www.aihub.or.kr/devsport/apishell/list.do?currMenu=403&topMenu=100
@@ -67,14 +68,14 @@ https://www.aihub.or.kr/devsport/apishell/list.do?currMenu=403&topMenu=100
 > ## :file_folder: Project Structure (프로젝트 구조)
 
 ```plaintext
-PRPD_Classification/	 # 메인 코드 파일
-라벨링데이터/				 # 라벨링 데이터
-원천데이터/				  # 이미지 및 시계열 데이터
-results/				 # 결과 저장 경로
-├── grad-cam/			 # 이미지 파일
-.gitignore               # Git 무시 파일 목록
-README.md                # 프로젝트 개요 및 사용법
-requirements.txt		 # 정확한 종속성 버전이 기록된 파일로, 일관된 빌드를 보장
+PRPD_Classification/  # 메인 코드 파일
+라벨링데이터/    # 라벨링 데이터
+원천데이터/    # 이미지 및 시계열 데이터
+results/    # 결과 저장 경로
+├── grad-cam/    # 이미지 파일
+.gitignore    # Git 무시 파일 목록
+README.md    # 프로젝트 개요 및 사용법
+requirements.txt    # 정확한 종속성 버전이 기록된 파일로, 일관된 빌드를 보장
 ```
 
 <br/>
@@ -85,5 +86,5 @@ requirements.txt		 # 정확한 종속성 버전이 기록된 파일로, 일관�
 ### MobileNet Grad-cam
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/e02a8256-c32b-47b4-90e1-41ca77d5360e">
+    <img size=16 src="https://github.com/user-attachments/assets/e02a8256-c32b-47b4-90e1-41ca77d5360e">
 </p>
