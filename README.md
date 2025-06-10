@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,2,3&height=250&section=header&text=Deep Learning&animation=fadeIn&fontColor=d6ace6&fontSize=90)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,2,3&height=250&section=header&text=DeepLearning&animation=fadeIn&fontColor=d6ace6&fontSize=90)
 
 > ## :alarm_clock: 개발기간
 
