@@ -16,14 +16,38 @@
 > ## :white_check_mark: 데이터셋
 * 데이터 소스 : 산업 설비 전기 화재 사고 예방 부분방전 데이터
 
-  <br/>https://www.aihub.or.kr/aihubdata/data/view.do?searchKeyword=%EB%B0%A9%EC%A0%84&aihubDataSe=data&dataSetSn=71682
-
-  <br/>
+  https://www.aihub.or.kr/aihubdata/data/view.do?searchKeyword=%EB%B0%A9%EC%A0%84&aihubDataSe=data&dataSetSn=71682
 
 * 데이터 구축년도/데이터 구축량 : 2023년/이미지 300,000건, 시계열 300,000건
 
 > ## :page_with_curl: 실행 방법
-> 
+
+1. Repository를 Clone
+
+```
+git clone https://github.com/Leejangha/Deep_learning_PJT.git
+```
+
+2. 가상환경 설치
+
+```
+conda create -n pjt python==3.8
+```
+
+3. requirements.txt 설치
+
+```
+pip install -r requirements.txt
+```
+
+4. 데이터 다운로드 후 파일 경로(원천데이터, 라벨링데이터)에 맞게 저장
+5. 원하는 모델 실행
+
+```
+python3 ./PRPD_Classification/main_mobilenet.py   —raw_data_path ./원천데이터/
+```
+
+
 
 
 > ## :books: 기술스택
@@ -43,9 +67,11 @@ https://www.aihub.or.kr/devsport/apishell/list.do?currMenu=403&topMenu=100
 > ## :file_folder: Project Structure (프로젝트 구조)
 
 ```plaintext
-PRPD_Classification/		# 메인 함수 파일
-results/
-├── grad-cam/				 # 이미지 파일
+PRPD_Classification/	 # 메인 코드 파일
+라벨링데이터/				 # 라벨링 데이터
+원천데이터/				  # 이미지 및 시계열 데이터
+results/				 # 결과 저장 경로
+├── grad-cam/			 # 이미지 파일
 .gitignore               # Git 무시 파일 목록
 README.md                # 프로젝트 개요 및 사용법
 requirements.txt		 # 정확한 종속성 버전이 기록된 파일로, 일관된 빌드를 보장
