@@ -14,8 +14,11 @@
 부분방전 이미지 데이터셋 기반 화재 사고 분류 모델 개발
 
 > ## :white_check_mark: 데이터셋
+<ul>
+    데이터 소스 : 산업 설비 전기 화재 사고 예방 부분방전 데이터
+    https://www.aihub.or.kr/aihubdata/data/view.do?searchKeyword=%EB%B0%A9%EC%A0%84&aihubDataSe=data&dataSetSn=71682
+</ul>
 
-https://www.aihub.or.kr/aihubdata/data/view.do?searchKeyword=%EB%B0%A9%EC%A0%84&aihubDataSe=data&dataSetSn=71682
 
 > ## :page_with_curl: 실행 방법
 > 
